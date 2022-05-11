@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    margin: 0 auto;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.label {
+    background-color: #1f2630;
+    width: 25vw;
+    height: 50vh;
+    margin-top: 150px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    }
+.active {
+    display: content;
+}
+.thank {
+    display: none;
+}
+
+.starImg {
+    background-color: hsl(347, 13%, 21%);
+}
+
+.star {
+    padding: 20px;
+    background-color: #262f38;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+h1 {
+    margin-left: 5%;
+}
+
+.parText {
+    color: hsl(217, 12%, 63%);
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.numbersMain {
+    list-style-type: none;
+    margin-top: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: hsl(217, 12%, 63%);
+    font-weight: bold;
+}
+
+#one, #two, #three, #four, #five {
+    padding: 20px;
+    background-color: #262f38;
+    border-radius: 50%;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+}
+
+.buttonSubmit {
+    display: flex;
+    justify-content: center;
+}
+
+.submit {
+    margin-top: 10%;
+    background-color: hsl(25, 97%, 53%);
+    width: 80%;
+    height: 45px;
+    border-radius: 20px;
+    color: hsl(0, 0%, 100%);
+    border: none;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font-weight: bold;
+    font-size: 1.2em;
+
+}
+
+.imgThank {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.selected {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    
+}
+
+h3.selected {
+    padding: 20px;
+    background-color: #262f38;
+    border-radius: 40px;
+    color: hsl(25, 97%, 53%);
+    font-weight: lighter;
+}
+
+.thankText {
+    display: flex;
+    justify-content: center;
+}
+
+.thankLong {
+    font-weight: lighter;
+    text-align: center;
+    line-height: 200%;
+    margin: 2%;
+    
+}
+
+.thankPar {
+        font-weight: lighter;
+        }
+
+#rating {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+footer {
+    color: hsl(216, 12%, 54%);
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
+@media only screen and (max-width: 1000px) {
+.label {
+    width: 90vw;
+    height: 90vh;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+footer {
+    visibility: hidden;
+}
+
+}
